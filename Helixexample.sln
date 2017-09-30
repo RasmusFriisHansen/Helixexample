@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{DC69CB68-CF45-4AA8-B8D2-D620EA05397A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{D35CCAC5-6037-47BD-B158-5AF40C674147}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{2CE178DB-BFE2-400D-B5BA-98E3884FCD2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{E55686E7-F8BE-4373-92C2-6E9B868497C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{CD87C525-8C72-431D-A057-E7BC9F6C4883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Serialization", "Foundation\Serialization\code\Sitecore.Foundation.Serialization.csproj", "{6C8FC458-2C45-477F-A739-39D9016A2D80}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C8FC458-2C45-477F-A739-39D9016A2D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8FC458-2C45-477F-A739-39D9016A2D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8FC458-2C45-477F-A739-39D9016A2D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8FC458-2C45-477F-A739-39D9016A2D80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD87C525-8C72-431D-A057-E7BC9F6C4883} = {2CE178DB-BFE2-400D-B5BA-98E3884FCD2C}
+		{6C8FC458-2C45-477F-A739-39D9016A2D80} = {CD87C525-8C72-431D-A057-E7BC9F6C4883}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36E535E2-E9E1-4CF1-AE0A-1D1D2AFE6E02}
