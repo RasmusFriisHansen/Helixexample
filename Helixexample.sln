@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Seriali
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{6607F3A7-E045-4D55-A32F-954B3572AC62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Example", "Project\Example\code\Sitecore.Foundation.Example.csproj", "{17DF8146-B435-480A-B6B3-484FB3703B74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Project.Example", "Project\Example\code\Sitecore.Project.Example.csproj", "{17DF8146-B435-480A-B6B3-484FB3703B74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
