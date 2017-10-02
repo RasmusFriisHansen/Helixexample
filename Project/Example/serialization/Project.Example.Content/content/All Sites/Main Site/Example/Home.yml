@@ -1,0 +1,14 @@
+﻿---
+ID: "8865e763-d11f-402c-8968-388707049ea2"
+Parent: "81582276-a2c2-461d-a1e1-1595d05e37af"
+Template: "89c7729c-b267-4d67-be43-fbb6838998b0"
+Path: /sitecore/content/All Sites/Main Site/Example/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171002T110506Z
