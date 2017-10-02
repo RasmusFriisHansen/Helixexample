@@ -1,20 +1,20 @@
 ﻿---
-ID: "89c7729c-b267-4d67-be43-fbb6838998b0"
-Parent: "2d74ec9a-4b61-404a-ab72-7dc38a07c6fe"
+ID: "fdd76374-05b7-4abe-9815-0dbb51243b1c"
+Parent: "06c8cfc9-e7b2-4b7a-beea-0aed14886696"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Example/Home
+Path: /sitecore/templates/Project/Example/Page Type Templates/Blog
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Network/32x32/home.png
+  Value: Apps/32x32/Importation.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{37BFC7D0-ED84-4A9A-AF81-2779803E43E3}"
+  Value: "{1DD355E2-3365-4FD7-9AB3-195A0AA56D0E}"
 Languages:
 - Language: en
   Versions:
@@ -22,7 +22,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20171002T110237Z
+      Value: 20171002T122124Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
